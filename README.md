@@ -8,15 +8,23 @@ ejecutados secuencialmente desde `Main`.
 
 ## Tabla de contenidos
 
+### Implementados
+
 | # | Tema | Clase |
 |---|------|-------|
 | 1 | Variables y constantes | `VariablesYConstantes` |
 | 2 | Tipos de datos primitivos | `TiposDeDatosPrimitivos` |
 | 3 | Conversión de tipos (casting) | `ConversionDeTipos` |
-| 4 | Operadores | `Operadores` |
+| 4 | Operadores (aritméticos, relacionales, lógicos, ternario) | `Operadores` |
 | 5 | Entrada de datos por consola | `EntradaDeDatos` |
 | 6 | Estructuras condicionales (`if`, `if-else`, `switch`) | `EstructurasCondicionales` |
 | 7 | Estructuras de repetición (`while`, `do-while`, `for`, etiquetas) | `EstructurasDeRepeticion` |
+
+### Pendientes
+
+| # | Tema |
+|---|------|
+| 8 | Funciones y métodos |
 
 ---
 
