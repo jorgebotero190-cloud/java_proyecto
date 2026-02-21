@@ -7,6 +7,7 @@ public static void ejemplosWhile() {
 
     while (i < 5) {
         System.out.println("El valor de i es: " + i);
+        i++;
 }
 }
 
@@ -14,7 +15,7 @@ public static void ejemplosDoWhile() {
     int i = 1;
     do {
         System.out.println("El valor de i es: " + i);
-
+        i++;
 }
     while (i < 5);
 }

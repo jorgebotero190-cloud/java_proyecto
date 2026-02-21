@@ -69,7 +69,26 @@ public class Main {
         System.out.println("\n" + SEPARADOR_CLASE);
         System.out.println("FIN DE LA DEMOSTRACIÓN");
         System.out.println(SEPARADOR_CLASE);
+    
+
+    EstructurasDeRepeticion.ejemplosWhile();
+    System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EstructurasDeRepeticion.ejemplosDoWhile();
+    System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EstructurasDeRepeticion.ejemplosForClásico();
+    System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EstructurasDeRepeticion.ejemplosForAnidado();
+    System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EstructurasDeRepeticion.ejemplosBreakContinue();
+    System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EstructurasDeRepeticion.ejemplosEtiquetas();
+
+
+
+
     }
+
+
 
     private static void mostrarTitulo() {
         System.out.println("\n" + "=".repeat(80));
