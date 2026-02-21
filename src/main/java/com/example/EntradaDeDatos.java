@@ -18,8 +18,30 @@ public class EntradaDeDatos {
 
         System.out.println("El producto que buscas es: " + nombre_producto
             + ", la cantidad de productos son: " + numero
-            + " y el precio de este es: " + precio);
+            + " y el precio de este producto es : " + precio);
 
         scanner.close();
+    }
+
+    // Resolver salto de linea con nextLine, nextInt, nextDouble
+    public static void manejarSaltoDeLineaPendiente() {
+        Scanner sc = new Scanner(System.in);
+
+        // String (línea completa)
+        System.out.print("Ingrese una frase: ");
+        String texto = sc.nextLine();
+
+        System.out.print("Ingrese un número entero: ");
+        int numero = sc.nextInt();
+
+        // double
+        System.out.print("Ingrese un número decimal: ");
+        double decimal = sc.nextDouble();
+
+        System.out.println("Texto: " + texto);
+        System.out.println("Entero: " + numero);
+        System.out.println("Decimal: " + decimal);
+
+        sc.close();
     }
 }

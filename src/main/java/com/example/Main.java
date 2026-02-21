@@ -54,6 +54,13 @@ public class Main {
         System.out.println("\n" + SEPARADOR_SECCION + "\n");
         Operadores.demostrarOperadoresTernarios();
 
+        System.out.println(SEPARADOR_CLASE);
+        System.out.println("CLASE: EntradaDeDatos");
+        System.out.println(SEPARADOR_CLASE);
+        EntradaDeDatos.leerVariosTipos();
+        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        EntradaDeDatos.manejarSaltoDeLineaPendiente();
+
         System.out.println("\n" + SEPARADOR_CLASE);
         System.out.println("FIN DE LA DEMOSTRACIÓN");
         System.out.println(SEPARADOR_CLASE);
@@ -63,10 +70,5 @@ public class Main {
         System.out.println("\n" + "=".repeat(80));
         System.out.println("           PROYECTO SABIDURÍA JAVA - DEMOSTRACIONES");
         System.out.println("=".repeat(80) + "\n");
-
-    EntradaDeDatos.leerVariosTipos();
-     
-        
-
     }
 }
