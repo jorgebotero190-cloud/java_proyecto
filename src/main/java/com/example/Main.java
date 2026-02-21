@@ -63,5 +63,10 @@ public class Main {
         System.out.println("\n" + "=".repeat(80));
         System.out.println("           PROYECTO SABIDURÍA JAVA - DEMOSTRACIONES");
         System.out.println("=".repeat(80) + "\n");
+
+    EntradaDeDatos.leerVariosTipos();
+     
+        
+
     }
 }
