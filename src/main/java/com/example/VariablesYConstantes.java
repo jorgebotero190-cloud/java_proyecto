@@ -2,7 +2,7 @@ package com.example;
 
 public class VariablesYConstantes {
     public static void demostrarConvencionesNombres() {
-        // muestra ejemplos de nombres de variables en camelCase
+        // Muestra ejemplos de nombres de variables en camelCase
         int numero;
         double precio;
         String texto;
@@ -13,6 +13,7 @@ public class VariablesYConstantes {
         precio = 19.99;
         texto = "Esta es una prueba de conocimiento";
         esVerdadero = true;
+        
         // Imprimir los valores
         System.out.println("Número = " + numero);
         System.out.println("Precio = " + precio);
@@ -25,13 +26,15 @@ public class VariablesYConstantes {
         int edad;
         String nombre;
         boolean esEstudiante;
+        
         // Asignación de valores a las variables
         edad = 25;
         nombre = "Jorge";
         esEstudiante = true;
+        
         // Imprimir los valores de las variables
-        System.out.println("tienes=" + edad + " años de edad");
-        System.out.println(" Tu Nombre  es = " + nombre + " y eres bienvenido");
+        System.out.println("Tienes " + edad + " años de edad");
+        System.out.println("Tu nombre es " + nombre + " y eres bienvenido");
         System.out.println("¿Es estudiante? " + esEstudiante);
     }
 

@@ -2,7 +2,7 @@ package com.example;
 
 public class ConversionDeTipos {
 
-    // Ejemplo de widening conversion (conversión implícita)
+
     public static void demostrarCastingImplicito() {
 
         int numeroEntero = 100;
