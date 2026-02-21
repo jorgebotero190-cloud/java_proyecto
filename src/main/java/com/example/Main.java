@@ -48,18 +48,23 @@ public class Main {
         System.out.println("\n" + SEPARADOR_SECCION + "\n");
         Operadores.demostrarRelacionales();
         System.out.println("\n" + SEPARADOR_SECCION + "\n");
-        Operadores.demostrarOperadoresLogicos();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
-        Operadores.demostrarAsignacionesCompuestas();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
-        Operadores.demostrarOperadoresTernarios();
 
-        System.out.println(SEPARADOR_CLASE);
-        System.out.println("CLASE: EntradaDeDatos");
-        System.out.println(SEPARADOR_CLASE);
-        EntradaDeDatos.leerVariosTipos();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+    EntradaDeDatos.leerVariosTipos();
+        System.out.println();
+        System.out.println();
         EntradaDeDatos.manejarSaltoDeLineaPendiente();
+        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        System.out.println(SEPARADOR_CLASE);
+
+        System.out.println("CLASE: EstructurasCondicionales");
+        System.out.println(SEPARADOR_CLASE);
+        EstructurasCondicionales.ejemplosIF();
+        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        EstructurasCondicionales.ejemplosIfElse();
+        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        EstructurasCondicionales.ejemplosIfElseIf();
+        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        EstructurasCondicionales.ejemplosSwitch();
 
         System.out.println("\n" + SEPARADOR_CLASE);
         System.out.println("FIN DE LA DEMOSTRACIÓN");
