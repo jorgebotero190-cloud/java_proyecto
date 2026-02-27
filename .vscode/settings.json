@@ -21,5 +21,7 @@
         "org"
     ],
     "java.autobuild.enabled": true,
-    "java.inlayHints.parameterNames.enabled": "all"
+    "java.inlayHints.parameterNames.enabled": "all",
+    "java.search.scope": "main",
+    "claudeCode.useTerminal": true
 }

@@ -7,8 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         mostrarTitulo();
-
-        System.out.println(SEPARADOR_CLASE);
+                System.out.println(SEPARADOR_CLASE);
         System.out.println("CLASE: VariablesYConstantes");
         System.out.println(SEPARADOR_CLASE);
         VariablesYConstantes.demostrarConvencionesNombres();
@@ -88,7 +87,23 @@ public class Main {
 
     }
 
+        // Llamada a método sin parámetros
+        MetodosEstaticosSimples.ejemploDeclaracionLlamada();
 
+        // Llamada con parámetros
+        MetodosEstaticosSimples.ejemploPasoParametros("Carlos");
+
+        // Llamada con retorno
+        int resultado = MetodosEstaticosSimples.ejemploRetornoValores(5, 3);
+        System.out.println("Resultado: " + resultado);
+
+        // Llamadas a métodos sobrecargados
+        System.out.println("Suma int: " +
+                MetodosEstaticosSimples.ejemploRetornoValores(4, 6));
+
+        System.out.println("Suma double: " +
+                MetodosEstaticosSimples.ejemploRetornoValores(4.0, 6.0));
+    }
 
     private static void mostrarTitulo() {
         System.out.println("\n" + "=".repeat(80));
