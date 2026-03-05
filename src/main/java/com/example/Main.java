@@ -41,6 +41,7 @@ public class Main {
         
         System.out.println();
         System.out.println("Entrada de datos");
+        System.err.println();
         EntradaDeDatos.leerVariosTipos();
         EntradaDeDatos.manejarSaltoDeLineaPendiente();
         EstructurasCondicionales.ejemplosIF();
@@ -79,6 +80,14 @@ public class Main {
         ArreglosBidimensionales.recorrerMatriz();
         ArreglosBidimensionales.ejemploUsosTipicos();
 
+
+        System.out.println();
+        System.out.println("CLASE: ManipulacionCadenas");
+        System.out.println();
+        EntradaDeDatos.leerVariosTipos();
+        EntradaDeDatos.manejarSaltoDeLineaPendiente();
+
+        
 
     }
 
