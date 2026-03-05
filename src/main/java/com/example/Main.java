@@ -64,13 +64,20 @@ public class Main {
         System.err.println("CLASE: MétodosEstaticosSimples");
         System.out.println();
         MetodosEstaticosSimples.ejemploDeclaracionLlamada();
-        MetodosEstaticosSimples.ejemploPasoDeParametros("");
+        MetodosEstaticosSimples.ejemploPasoDeParametros("carlos");
         int suma = MetodosEstaticosSimples.ejemploRetornoValores(5, 3);
         System.out.println("Suma int: " + suma);
         int suma2 = MetodosEstaticosSimples.ejemploRetornoValores(4, 6);
         System.out.println("Suma int 2: " + suma2);
         double multiplicacion = MetodosEstaticosSimples.ejemploRetornoValores(4.0, 6.0);
         System.out.println("Multiplicacion double: " + multiplicacion);
+
+        System.out.println();
+        System.out.println("CLASE: ArreglosBidimensionales");
+        System.out.println();
+        ArreglosBidimensionales.declararCrearMatrices();
+        ArreglosBidimensionales.recorrerMatriz();
+        ArreglosBidimensionales.ejemploUsosTipicos();
 
 
     }
