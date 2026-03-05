@@ -85,8 +85,15 @@ public class Main {
         System.out.println();
         System.out.println("CLASE: ManipulacionCadenas");
         System.out.println();
-        EntradaDeDatos.leerVariosTipos();
-        EntradaDeDatos.manejarSaltoDeLineaPendiente();
+        ManipulacionCadenas.demostrarConcatenacion();
+        ManipulacionCadenas.demostrarLongitud();
+        ManipulacionCadenas.demostrarSubstring();
+        ManipulacionCadenas.demostrarIndexOf();
+        ManipulacionCadenas.demostrarReplace();
+        ManipulacionCadenas.demostrarMayusculasMinusculas();
+        ManipulacionCadenas.demostrarSplit();
+        ManipulacionCadenas.demostrarTrim();
+        
 
         
 
