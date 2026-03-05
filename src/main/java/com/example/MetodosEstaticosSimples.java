@@ -1,28 +1,26 @@
-package com.example;
+package  com.example;
+
+
 
 public class MetodosEstaticosSimples {
+//Un método estático simple sin parámetros ni retorno y cómo llamarlo;
 
-    // Un método estático simple sin parámetros ni retorno y cómo llamarlo
-    public static void ejemploDeclaracionLlamada() {
-        System.out.println("Este es el método sin parámetros.");
-    }
+public static void ejemploDeclaracionLlamada(){
 
-    // Un método estático con parámetros
-    public static void ejemploPasoDeParametros(String nombre) {
-        System.out.println("Su nombre: " + nombre);
-    }
+System.out.println("estes es el metodos sin parametros");
+};
+//un metodo estatatico con parametros
 
-    // Alias para mantener compatibilidad con llamadas existentes (si las hay)
-    public static void ejemploPasoParametros(String nombre) {
-        ejemploPasoDeParametros(nombre);
-    }
-
-    // Métodos estáticos con retorno (sobrecarga)
-    public static int ejemploRetornoValores(int a, int b) {
-        return a + b;
-    }
-
-    public static double ejemploRetornoValores(double a, double b) {
-        return a + b;
-    }
+public static void ejemploPasoDeParametros(String nombre ) {
+nombre="jorge";
+System.out.println("su nombre : " + nombre);    
+};
+//metodos estaticos con retorno
+public static int ejemploRetornoValores(int a, int b) {
+return a +b;
+};
+public static double ejemploRetornoValores(double a, double b) {
+return a*b;
+};
 }
+
