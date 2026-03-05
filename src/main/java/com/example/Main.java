@@ -42,8 +42,9 @@ public class Main {
         System.out.println();
         System.out.println("Entrada de datos");
         System.err.println();
-        EntradaDeDatos.leerVariosTipos();
-        EntradaDeDatos.manejarSaltoDeLineaPendiente();
+        // Comentado: requiere entrada interactiva
+        // EntradaDeDatos.leerVariosTipos();
+        // EntradaDeDatos.manejarSaltoDeLineaPendiente();
         EstructurasCondicionales.ejemplosIF();
         EstructurasCondicionales.ejemplosIfElse();
         EstructurasCondicionales.ejemplosIfElseIf();

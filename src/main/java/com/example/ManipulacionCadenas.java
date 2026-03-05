@@ -72,7 +72,7 @@ public class ManipulacionCadenas {
         int resultado = texto1.compareTo(texto2);
         System.out.println("Comparación 'pera' vs 'Banana': " + resultado);
         if (resultado < 0) {
-            System.out.println("'Apple' es menor que 'Banana'");
+            System.out.println("'Apple' es menor que 'Bananlasea'");
         }
     }
 

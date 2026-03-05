@@ -23,7 +23,7 @@ public class EntradaDeDatos {
     
     public static void manejarSaltoDeLineaPendiente() {
     
-        System.out.print("Ingrese Tu  madre: ");
+        System.out.print("Ingrese Tu  clase: ");
         String texto = scanner.nextLine();
         System.out.print("Ingrese su edad  : ");
         int numero = scanner.nextInt();
