@@ -2,112 +2,78 @@ package com.example;
 
 public class Main {
 
-    private static final String SEPARADOR_CLASE = "\n" + "=".repeat(80) + "\n";
-    private static final String SEPARADOR_SECCION = "-".repeat(80);
 
     public static void main(String[] args) {
-        mostrarTitulo();
-                System.out.println(SEPARADOR_CLASE);
         System.out.println("CLASE: VariablesYConstantes");
-        System.out.println(SEPARADOR_CLASE);
+        System.out.println();
         VariablesYConstantes.demostrarConvencionesNombres();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         VariablesYConstantes.demostracionDeclaracionAsignacion();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         VariablesYConstantes.demostracionConstantes();
 
-        System.out.println(SEPARADOR_CLASE);
+        System.out.println();
         System.out.println("CLASE: TiposDeDatosPrimitivos");
-        System.out.println(SEPARADOR_CLASE);
+        System.out.println();
         TiposDeDatosPrimitivos.demostrarEnteros();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         TiposDeDatosPrimitivos.demostrarFlotantes();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         TiposDeDatosPrimitivos.demostrarCaracteres();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         TiposDeDatosPrimitivos.demostrarBooleanos();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         TiposDeDatosPrimitivos.demostrarValoresPorDefecto();
+ 
 
-        System.out.println(SEPARADOR_CLASE);
-        System.out.println(" CLASE : ConversionDeTipos");
-        System.out.println(SEPARADOR_CLASE);
+        System.out.println();
+        System.out.println("conversion de tipos");
+        System.out.println();
         ConversionDeTipos.demostrarCastingImplicito();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         ConversionDeTipos.demostrarCastingExplicito();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         ConversionDeTipos.demostrarProblemasDePrecision();
 
-        System.out.println(SEPARADOR_CLASE);
-        System.out.println("CLASE: Operadores");
-        System.out.println(SEPARADOR_CLASE);
+        System.out.println();
+        System.out.println("Operadores");
+        System.out.println();
         Operadores.demostrarOperadoresAritmeticos();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         Operadores.demostracionIncrementoDecremento();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         Operadores.demostrarRelacionales();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
+        System.out.println();
+        Operadores.demostrarOperadoresLogicos();
 
-    EntradaDeDatos.leerVariosTipos();
+        System.out.println("Arreglos unidimensionales");
+        ArreglosUnidimensionales.declararCrearInicializar();
+        
         System.out.println();
-        System.out.println();
+        System.out.println("Entrada de datos");
+        EntradaDeDatos.leerVariosTipos();
         EntradaDeDatos.manejarSaltoDeLineaPendiente();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
-        System.out.println(SEPARADOR_CLASE);
-
-        System.out.println("CLASE: EstructurasCondicionales");
-        System.out.println(SEPARADOR_CLASE);
         EstructurasCondicionales.ejemplosIF();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         EstructurasCondicionales.ejemplosIfElse();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         EstructurasCondicionales.ejemplosIfElseIf();
-        System.out.println("\n" + SEPARADOR_SECCION + "\n");
         EstructurasCondicionales.ejemplosSwitch();
 
-        System.out.println("\n" + SEPARADOR_CLASE);
-        System.out.println("FIN DE LA DEMOSTRACIÓN");
-        System.out.println(SEPARADOR_CLASE);
-    
 
-    EstructurasDeRepeticion.ejemplosWhile();
-    System.out.println("\n" + SEPARADOR_SECCION + "\n");
-    EstructurasDeRepeticion.ejemplosDoWhile();
-    System.out.println("\n" + SEPARADOR_SECCION + "\n");
-    EstructurasDeRepeticion.ejemplosForClásico();
-    System.out.println("\n" + SEPARADOR_SECCION + "\n");
-    EstructurasDeRepeticion.ejemplosForAnidado();
-    System.out.println("\n" + SEPARADOR_SECCION + "\n");
-    EstructurasDeRepeticion.ejemplosBreakContinue();
-    System.out.println("\n" + SEPARADOR_SECCION + "\n");
-    EstructurasDeRepeticion.ejemplosEtiquetas();
+        System.out.println();
+        System.out.println("Estructuras de repetición");
+        System.err.println();
+        EstructurasDeRepeticion.ejemplosWhile();
+        EstructurasDeRepeticion.ejemplosDoWhile();
+        EstructurasDeRepeticion.ejemplosForClásico();
+        EstructurasDeRepeticion.ejemplosForAnidado();
+        EstructurasDeRepeticion.ejemplosBreakContinue();
+        EstructurasDeRepeticion.ejemplosEtiquetas();
 
 
-
-
-    }
-
-        // Llamada a método sin parámetros
+        System.out.println();
+        System.err.println("CLASE: MétodosEstaticosSimples");
+        System.out.println();
         MetodosEstaticosSimples.ejemploDeclaracionLlamada();
+        MetodosEstaticosSimples.ejemploPasoDeParametros("");
+        int suma = MetodosEstaticosSimples.ejemploRetornoValores(5, 3);
+        System.out.println("Suma int: " + suma);
+        int suma2 = MetodosEstaticosSimples.ejemploRetornoValores(4, 6);
+        System.out.println("Suma int 2: " + suma2);
+        double multiplicacion = MetodosEstaticosSimples.ejemploRetornoValores(4.0, 6.0);
+        System.out.println("Multiplicacion double: " + multiplicacion);
 
-        // Llamada con parámetros
-        MetodosEstaticosSimples.ejemploPasoParametros("Carlos");
 
-        // Llamada con retorno
-        int resultado = MetodosEstaticosSimples.ejemploRetornoValores(5, 3);
-        System.out.println("Resultado: " + resultado);
-
-        // Llamadas a métodos sobrecargados
-        System.out.println("Suma int: " +
-                MetodosEstaticosSimples.ejemploRetornoValores(4, 6));
-
-        System.out.println("Suma double: " +
-                MetodosEstaticosSimples.ejemploRetornoValores(4.0, 6.0));
     }
 
-    private static void mostrarTitulo() {
-        System.out.println("\n" + "=".repeat(80));
-        System.out.println("           PROYECTO SABIDURÍA JAVA - DEMOSTRACIONES");
-        System.out.println("=".repeat(80) + "\n");
-    }
 }
+
