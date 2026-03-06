@@ -15,8 +15,7 @@ public class EntradaDeDatos {
         double precio = scanner.nextDouble();
         double total = numero * precio;
         scanner.nextLine(); // Consumir el salto de línea pendiente
-        System.out.println("\n-----Hola Bienvenido!------\n "
-                + ";El producto que buscas es: " + nombre_producto + "\n la cantidad deseada es : " + numero + " \nel precio de este producto es : " + precio + "\n el total es : " + total);
+        System.out.println("Hola Bienvenido! " + ",El producto que buscas es: " + nombre_producto + "\n la cantidad deseada es : " + numero + " \nel precio de este producto es : " + precio + "\n el total es : " + total);
         scanner.nextLine(); // Consumir el salto de línea pendiente antes de siguiente método
     }
 

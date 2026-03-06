@@ -13,8 +13,7 @@ public class ManejoBasicoExcepciones {
     }
 
     public static void ejemploTryCatchImput() {
-        Scanner scanner = new Scanner(System.in);
-        try{
+        try(Scanner scanner = new Scanner(System.in)){
             System.err.println("Ingresa un numero mayor a ** 0 ** :");
             int num = scanner.nextInt();
             System.out.println("El numero ingresado es : " + num);
@@ -24,8 +23,7 @@ public class ManejoBasicoExcepciones {
     }
 
     public static void evitarCierrePrograma() {
-        Scanner _scanner = new Scanner(System.in);
-        try {
+        try(Scanner _scanner = new Scanner(System.in)) {
             System.err.println("Ingresa un numero mayor a ** 0 ** :");
             int num = _scanner.nextInt();
 
@@ -46,10 +44,15 @@ public class ManejoBasicoExcepciones {
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Error: Indice fuera de rango");
             } finally {
-                System.out.println("Este bloque se ejecuta siempre, incluso si ocurre una excepción o no.\n"+
-                "\nEs útil para liberar recursos o realizar acciones de limpieza\n" +
-                "\nEvitando el cierre del programa\n"+
-                        "\n Aqui estamos usando  --finally--\n");
+                System.out.println("""
+                Este bloque se ejecuta siempre, incluso si ocurre una excepción o no.
+
+                Es útil para liberar recursos o realizar acciones de limpieza
+
+                Evitando el cierre del programa
+
+                 Aqui estamos usando  --finally--
+                """);
             }
         
     }
