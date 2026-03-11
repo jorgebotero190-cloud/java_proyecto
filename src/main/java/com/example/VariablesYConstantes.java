@@ -1,46 +1,46 @@
 package com.example;
 
 public class VariablesYConstantes {
-    public static void demostrarConvencionesNombres() {
-        // Muestra ejemplos de nombres de variables en camelCase
-        int numero;
-        double precio;
-        String texto;
-        boolean esVerdadero;
 
-        // Asignación de valores
-        numero = 10;
-        precio = 19.99;
-        texto = "Esta es una prueba de conocimiento";
-        esVerdadero = true;
-        
+    public static void demostrarConvencionesNombres() {
+        System.out.println("=== CONVENCIONES DE NOMBRES ===");
+
+        // Ejemplos de nombres de variables en camelCase
+        int numero = 10;
+        double precio = 19.99;
+        String texto = "Esta es una prueba de conocimiento";
+        boolean esVerdadero = true;
+
         // Imprimir los valores
         System.out.println("Número = " + numero);
         System.out.println("Precio = " + precio);
         System.out.println("Texto = " + texto);
-        System.out.println("¿Es verdadero? " + esVerdadero);
+        System.out.println("¿Es verdadero? " + esVerdadero + "\n");
     }
 
     public static void demostracionDeclaracionAsignacion() {
-        // Declaración de variables de diferentes tipos
-        int edad;
-        String nombre;
-        boolean esEstudiante;
-        
-        // Asignación de valores a las variables
-        edad = 25;
-        nombre = "Jorge";
-        esEstudiante = true;
-        
-        // Imprimir los valores de las variables
+        System.out.println("=== DECLARACIÓN Y ASIGNACIÓN ===");
+
+        // Declaración y asignación de variables
+        int edad = 25;
+        String nombre = "Jorge";
+        boolean esEstudiante = true;
+
+        // Imprimir los valores
         System.out.println("Tienes " + edad + " años de edad");
         System.out.println("Tu nombre es " + nombre + " y eres bienvenido");
-        System.out.println("¿Es estudiante? " + esEstudiante);
+        System.out.println("¿Es estudiante? " + esEstudiante + "\n");
     }
 
     public static void demostracionConstantes() {
-        // usa la palabra reservada final para declarar una constante
+        System.out.println("=== CONSTANTES ===");
+
+        // Uso de la palabra reservada final
         final double PI = 3.14159;
-        System.out.println("El valor de PI es =  " + PI);
+        final String MENSAJE = "Constantes en Java";
+
+        System.out.println("El valor de PI es = " + PI);
+        System.out.println("Mensaje constante = " + MENSAJE);
+        System.out.println("Nota: Las constantes se escriben en MAYÚSCULAS con guiones bajos.\n");
     }
 }
