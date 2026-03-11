@@ -1,14 +1,11 @@
 package com.example;
 
-
-
 public class EstructurasCondicionales {
 
     public static void ejemplosIF() {
         int edad = 20;
 
-        System.out.println("ESTRUCTURA IF");
-        System.out.println();
+        System.out.println("=== ESTRUCTURA IF ===");
         System.out.println("Edad: " + edad);
 
         if (edad >= 18) {
@@ -20,8 +17,7 @@ public class EstructurasCondicionales {
     public static void ejemplosIfElse() {
         int numero = -5;
 
-        System.out.println("ESTRUCTURA IF-ELSE");
-        System.out.println();
+        System.out.println("=== ESTRUCTURA IF-ELSE ===");
         System.out.println("Número: " + numero);
 
         if (numero >= 0) {
@@ -35,8 +31,7 @@ public class EstructurasCondicionales {
     public static void ejemplosIfElseIf() {
         int nota = 75;
 
-        System.out.println("ESTRUCTURA IF-ELSE IF-ELSE");
-        System.out.println();
+        System.out.println("=== ESTRUCTURA IF-ELSE IF-ELSE ===");
         System.out.println("Nota: " + nota);
 
         if (nota >= 90) {
@@ -50,13 +45,11 @@ public class EstructurasCondicionales {
         }
         System.out.println();
     }
-    
 
-    public static void ejemplosSwitch() {        
-        int dia =3;
+    public static void ejemplosSwitch() {
+        int dia = 3;
 
-        System.out.println("ESTRUCTURA SWITCH");
-        System.out.println();
+        System.out.println("=== ESTRUCTURA SWITCH ===");
         System.out.println("Día número: " + dia);
 
         switch (dia) {
@@ -65,7 +58,9 @@ public class EstructurasCondicionales {
             case 3 -> System.out.println("Miércoles");
             case 4 -> System.out.println("Jueves");
             case 5 -> System.out.println("Viernes");
-            default -> System.out.println("Fin de semana");
+            case 6 -> System.out.println("Sábado");
+            case 7 -> System.out.println("Domingo");
+            default -> System.out.println("Número de día no válido");
         }
         System.out.println();
     }
