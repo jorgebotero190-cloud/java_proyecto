@@ -47,13 +47,6 @@ mvn exec:java
 ```
 
 ### Con javac (alternativa)
-
-```bash
-# Compilar todos los fuentes
-javac -d out src/main/java/com/example/*.java
-
-# Ejecutar
-java -cp out com.example.Main
 ```
 
 ---
